@@ -1,4 +1,4 @@
 # DOMManipulation
 
 
-Denna examinerade uppgift där vi skulle göra ett quiz. Grundligt där fokuset var dom-manipulation
+Denna examinerade uppgift skulle vi göra ett quiz. Basnivå där fokuset på uppgiften var dom-manipulation
