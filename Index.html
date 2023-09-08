@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Ankademin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="mode" aria-pressed="false">Dark mode</button>
+    <h1>Ankademin Quiz</h1>
+    <div id="container">
+        <div id="question">
+            <h2></h2>
+        </div>
+        <div id="answers">
+                <div class="answerBox" id="box1">
+                    <input type="button" aria-pressed="false" id="answer0" class="answer correct" value="">
+                </div>
+                <div class="answerBox" id="box2">
+                    <input type="button" aria-pressed="false" id="answer1" class="answer" value="">
+                </div>
+                <div class="answerBox" id="box3">
+                    <input type="button" aria-pressed="false" id="answer2" class="answer" value="">
+                </div>
+                <div class="answerBox" id="box4">
+                    <input type="button" aria-pressed="false" id="answer3" class="answer" value="">
+                </div>
+            </div>
+            <div id="footer">
+                <h3 id="progress"></h3>
+                <h4 id="result"></h4>
+                <button id="next" aria-disabled="false">Next</button>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
